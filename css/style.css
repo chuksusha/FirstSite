@@ -1,0 +1,236 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 40px 40px;   
+    color: #000000;     
+   }
+.container {
+    background-color: #ffeeb8;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.head {
+    max-width: 1090px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.logo {
+    display: flex; 
+}
+.image-logo {
+    margin-right: 4px;
+}
+.text-logo {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.social-link {
+    margin-left: 20px;
+}
+.main {
+    display: flex;
+    justify-content:space-between;
+    max-width: 1090px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.left-column {
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 720px;
+}
+.user-profession {
+    margin: 0;
+    color: #6c0603;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-name {
+    margin: 0;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-description {
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-bottom: 55px;
+}
+.features {
+    --animate-duration: 1.3s;
+}
+.features-title {
+    color:#6c0603;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.features-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item {
+    flex-basis: 50%;
+    max-width: 288px;
+    margin-bottom: 30px;
+}
+.features-imge {
+    display: block;
+    margin-bottom: 22px;
+}
+.features-item-title {
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.features-text {
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.projects {
+    --animate-duration: 1.6s;
+}
+.projects-title {
+    color:#6c0603;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 35px;
+}
+.projects-slider {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.projects-text {
+    display: flex;
+    flex-basis: 55%;
+    flex-wrap: wrap;
+}
+.projects-text-title {
+    margin: 0;
+    flex-basis: 100%;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+.projects-time, .projects-cost {
+    flex-basis: 50%;  
+    display: flex;
+    align-items: flex-start;
+}
+.projects-subtitle, .projects-paragraph {
+    margin: 0; 
+}
+.projects-icon {
+    margin-right: 11px;
+}
+.projects-subtitle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.projects-paragraph {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.swiper-pagination {
+    position: relative;
+    margin-top: 30px;
+}
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #6c0603;
+    opacity: 1;
+    background-color:rgb(0, 0, 0, 0)
+}
+.swiper-pagination-bullet-active {
+    background-color:#6c0603;
+}
+.right-column {
+    background-color:#6c0603;
+    width: 370px;
+}
+.avatar {
+    width: 300px;
+    height: 300px;
+    background-color:#fff;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url('../img/IMG_4735.jpg');
+    background-repeat: no-repeat;
+    border: 9px solid #fff;
+    margin-bottom: 58px;
+}
+.contacts, .tech-skills, .soft-skills {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.right-title {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.contact-type {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 20px;
+}
+.contact-link {
+    opacity: 0.5;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+.tech-skills-item, .soft-skills-item {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
